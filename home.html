@@ -9,8 +9,13 @@
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
             <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
             <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+            <script type="text/javascript" src="assets/javascript/fb-login.js"></script>
     </head>
     <body>
+        <!-- This will embed Facebook Login on the page -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0&appId=669975930313855&autoLogAppEvents=1" nonce="wp36CK1n"></script>
+        
         <header>
             <div class="container-fluid navalert-container" id="heading-container">
                 <nav class="navbar navbar-dark navbar-expand-sm header-navbar">
@@ -34,6 +39,7 @@
                             </li>
                             <li class="nav-item mr-2"><a class="nav-link" href="#" onclick="closeNavBar()">Community/Events</a></li>
                             <li class="nav-item mr-2"><a class="nav-link" href="#" onclick="closeNavBar()">Gallery</a></li>
+                            <li class="fb-login-button" data-size="medium" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" data-width=""></li>
                         </ul>
                     </div>
                 </nav>
@@ -72,7 +78,5 @@
                 </nav>
             </div>
         </footer>
-        
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0&appId=1208019262610684&autoLogAppEvents=1" nonce="FRPHoxOW"></script>
     </body>
 </html>
