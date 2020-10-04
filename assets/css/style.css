@@ -1,0 +1,92 @@
+.landing-body {
+    font-family: "Roboto", sans-serif;
+    color: #2c2c2c;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+    background: black;
+}
+
+#video-wrapper {
+	position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    z-index: 1; 
+    width: 100% !important;
+    height: 100%;
+	margin:0;
+	padding:0;
+}
+
+#dare-to-play {
+	position: absolute;
+	z-index:2;
+	left:0;
+	right:0;
+    margin-left: auto;
+    margin-right: auto;
+	top:85%;
+	border-radius:25px;
+	background-color: rgb(226, 110, 33);
+	background: -webkit-linear-gradient(top, rgba(252, 94, 2, 0.925), rgba(241, 189, 44, 0.8));
+	background: -o-linear-gradient(top, rgba(252, 94, 2, 0.925), rgba(241, 189, 44, 0.8)); 
+	background: -moz-linear-gradient(top, rgba(252, 94, 2, 0.925), rgba(241, 189, 44, 0.8)); 
+	background: linear-gradient(top, rgba(252, 94, 2, 0.925), rgba(241, 189, 44, 0.8)); 
+}
+
+#dare-to-play a{
+	color: #363535;
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+#dare-to-play p{
+	padding-top:3px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#dare-to-play:hover {
+    cursor: pointer;
+}
+
+#dare-to-play a:hover {
+    color: #e62907;
+}
+
+/* ---- Media Screen ---- */
+@media only screen and (min-width: 600px) {
+    #dare-to-play {
+        top: 90%;
+        width:300px;
+        height:50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #dare-to-play {
+        top: 72%;
+        width: 150px;
+        height: 30px;
+    }
+
+    #dare-to-play a{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #dare-to-play {
+        top: 68%;
+        width: 150px;
+        height: 30px;
+    }
+    
+    #dare-to-play a{
+        font-size: 20px;
+    }
+}
