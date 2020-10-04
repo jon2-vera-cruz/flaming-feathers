@@ -9,15 +9,15 @@
 }
 
 #video-wrapper {
+	margin:0;
+	padding:0;
+    border: 0;
 	position: absolute;
     top: 0;
     left: 0;
-    border: 0;
     z-index: 1; 
     width: 100% !important;
     height: 100%;
-	margin:0;
-	padding:0;
 }
 
 #dare-to-play {
