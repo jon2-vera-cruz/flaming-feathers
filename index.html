@@ -11,13 +11,22 @@
 <!-- _____________________ Video Clip concept for Landing Page came from below URL ______________________
      https://stackoverflow.com/questions/26008183/how-to-create-an-html-5-landing-page-w-video-background -->
 <body class="landing-body">
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0&appId=1208019262610684&autoLogAppEvents=1" nonce="n42uW8Wz"></script>
+
     <div class="container-fluid video-container">
         <video id="video-wrapper" fullscreen autoplay muted loop ?wmode="transparent" preload="auto" poster="assets/images/logo/flaming-feathers-logo.jpg">
             <source src="assets/video/flamingfeathers.mp4" type="video/mp4">
         </video>
         <div id="dare-to-play">
             <p><a href="home.html">Dare to Play?</a></p>
+            <div class="fb-login-button" data-size="large" data-button-type="login_with" data-layout="default" data-auto-logout-link="true" data-use-continue-as="true" data-width=""></div>
         </div>
     </div>
+
+    <!--fb:login-button 
+        scope="public_profile,email"
+        onlogin="checkLoginState();">
+    </fb:login-button-->
 </body>
 </html>

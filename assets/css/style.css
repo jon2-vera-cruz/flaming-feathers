@@ -8,6 +8,16 @@
     background: black;
 }
 
+#navbar-logo {
+    height: 80px;
+}
+
+#heading-container {
+    padding-top: 0;
+}
+
+/* Section for the Landing Page */
+
 #video-wrapper {
 	margin:0;
 	padding:0;
@@ -57,6 +67,103 @@
 #dare-to-play a:hover {
     color: #e62907;
 }
+
+/* ----- Section for the Home Page ----- */
+.footer-copyright {
+    overflow: hidden;
+}
+
+.social-network-row {
+    padding-left: 15px;
+}
+
+.social-network-col {
+    flex: 0 0 100%;
+    letter-spacing: 1.5em;
+    padding-left: 15px;
+}
+
+.copyright-col {
+    flex: 0 0 100%;
+    padding-left: 15px;
+}
+
+.social-network-navbar {
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1.5rem;
+}
+
+/* ----- Navbar ----- */
+.header-navbar,
+.footer-navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    border: 0;
+}
+
+.footer-navbar {
+    justify-content: center;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.navbar-contents:hover {
+    background: #8e24aa;
+    cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.dropdown-menu,
+.dropdown-item {
+    background: #8e24aa;
+    color: #fafafa;
+}
+
+.dropdown-menu:hover {
+    background: #8e24aa;
+    color: #212529;
+}
+
+.page-btn-nav {
+    font-weight: bold;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.page-btn-nav:hover {
+    background: #8e24aa;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.control-border {
+    border: 2px solid #8e24aa;
+}
+
 
 /* ---- Media Screen ---- */
 @media only screen and (min-width: 600px) {
